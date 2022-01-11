@@ -1,0 +1,193 @@
+/* estos son los estilos de la vista en fila*/
+.ContainerProfileFlex {
+  height: 33vh;
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.ContainerProfileFlex img {
+  height: 80%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.ContainerProfileFlex__info {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ContainerProfileFlex__info__top {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ContainerProfileFlex__info__top__left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ContainerProfileFlex__info__top__left h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+.ContainerProfileFlex__info__top__left p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #828282;
+}
+.ContainerProfileFlex__info__top__right {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.ContainerProfileFlex__info__top__right p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+.ContainerProfileFlex__info__top__right__item {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ContainerProfileFlex__info__top__right__item img {
+  height: 80%;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.ContainerProfileFlex__info__bottom {
+  height: 60%;
+  width: 84%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ContainerProfileFlex__info__bottom p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+
+/* estos son los estilos de la vista en columna*/
+
+.ContainerProfileColumn {
+  height: 70vh;
+  width: 18vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.ContainerProfileColumn img {
+  width: 80%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.ContainerProfileColumn__info {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.ContainerProfileColumn__info__top {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.ContainerProfileColumn__info__top__left {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.ContainerProfileColumn__info__top__left h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  /* line-height: 24px; */
+  color: #4f4f4f;
+}
+.ContainerProfileColumn__info__top__left p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  /* line-height: 22px; */
+  color: #828282;
+}
+.ContainerProfileColumn__info__top__right {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.ContainerProfileColumn__info__top__right p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+.ContainerProfileColumn__info__top__right__item {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ContainerProfileColumn__info__top__right__item img {
+  height: 80%;
+  width: 20%;
+  object-fit: contain;
+  border-radius: 0px;
+}
+.ContainerProfileColumn__info__bottom {
+  height: 50%;
+  width: 110%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ContainerProfileColumn__info__bottom p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #4f4f4f;
+}

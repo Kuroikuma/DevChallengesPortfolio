@@ -1,0 +1,108 @@
+.containerHobbiesFlex {
+  height: 30vh;
+  width: auto;
+  background-color: white;
+  padding: 0px 10px;
+  border-radius: 12px;
+}
+.containerHobbiesFlex__Title {
+  height: 20%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4f4f4f;
+}
+.containerHobbiesFlex___ListCard {
+  height: 70%;
+  display: flex;
+  gap: 0px 10px;
+}
+.containerHobbiesFlex__ListCard__Item {
+  width: 18vw;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.containerHobbiesFlex__ListCard__Item__Img {
+  height: 65%;
+}
+.containerHobbiesFlex__ListCard__Item__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+.containerHobbiesFlex__ListCard__Item__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+.containerHobbiesFlex__ListCard__Item__Img img {
+  height: 100%;
+  border-radius: 12px;
+  object-fit: contain;
+}
+/*Estos son los estilos del componente en columna*/
+.containerHobbiesColumn {
+  height: auto;
+  width: 16.6vw;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+.containerHobbiesColumn__Title {
+  height: 7%;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #4f4f4f;
+}
+.containerHobbiesColumn___ListCard {
+  width: 16vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px 10px;
+}
+.containerHobbiesColumn__ListCard__Item {
+  height: 22vh;
+  width: 16vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.containerHobbiesColumn__ListCard__Item__Img {
+  height: 50%;
+}
+.containerHobbiesColumn__ListCard__Item__title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #333333;
+}
+.containerHobbiesColumn__ListCard__Item__text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+.containerHobbiesColumn__ListCard__Item__Img img {
+  height: 100%;
+  border-radius: 12px;
+  object-fit: contain;
+}

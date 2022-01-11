@@ -1,0 +1,169 @@
+/* estos son los estilos de la vista en fila*/
+.containerProjectFlex {
+  height: 33vh;
+  width: 61vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+}
+.containerProjectFlexImg {
+  width: 30%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+.containerProjectFlexContent {
+  height: 70%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.containerProjectFlexContentTag {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.containerProjectFlexContentTag p {
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+.containerProjectFlexContentTag p:first-of-type {
+  margin-left: 0px;
+}
+.containerProjectFlexContentTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #333333;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.containerProjectFlexContentText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+.containerProjectFlexContentGroupButton {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+}
+.containerProjectFlexContentGroupButton button {
+  width: 45%;
+  box-sizing: border-box;
+  color: #2f80ed;
+  background-color: white;
+  border: 1px solid #2f80ed;
+  border-radius: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.containerProjectFlexContentGroupButton button:first-of-type {
+  width: 45%;
+  background: #2f80ed;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}
+
+/* estos son los estilos de la vista en columna*/
+
+.containerProjectColumn {
+  height: 70vh;
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+}
+.containerProjectColumnImg {
+  width: 80%;
+  object-fit: contain;
+  border-radius: 12px;
+}
+.containerProjectColumnContent {
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.containerProjectColumnContentTag {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.containerProjectColumnContentTag p {
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+.containerProjectColumnContentTag p:first-of-type {
+  margin-left: 0px;
+}
+.containerProjectColumnContentTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  color: #333333;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+.containerProjectColumnContentText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #828282;
+}
+.containerProjectColumnContentGroupButton {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: space-between;
+}
+.containerProjectColumnContentGroupButton button {
+  width: 45%;
+  box-sizing: border-box;
+  color: #2f80ed;
+  background-color: white;
+  border: 1px solid #2f80ed;
+  border-radius: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+}
+.containerProjectColumnContentGroupButton button:first-of-type {
+  width: 45%;
+  background: #2f80ed;
+  border: none;
+  border-radius: 8px;
+  color: white;
+}

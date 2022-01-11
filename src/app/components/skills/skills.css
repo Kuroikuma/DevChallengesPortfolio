@@ -1,0 +1,138 @@
+.containerSkillFlex {
+  height: auto;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background-color: white;
+}
+.containerSkillFlex__Tiltle {
+  font-family: Montserrat;
+  font-style: normal;
+  width: 85%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+.containerSkillFlex__ListSkill {
+  width: 85%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  gap: 15px 30px;
+}
+.containerSkillFlex__ListSkill__Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3vh;
+}
+.containerSkillFlex__ListSkill__Item__bar {
+  height: 50%;
+  width: 70%;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+.quali2 {
+  height: 100%;
+  width: 40%;
+  border-radius: 10px;
+  background: #2f80ed;
+}
+.quali3 {
+  height: 100%;
+  width: 60%;
+  border-radius: 10px;
+  background: #2f80ed;
+}
+.quali4 {
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+  background: #2f80ed;
+}
+.containerSkillFlex__ListSkill__Item p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}
+
+/*estos son los estilo de compononte en columna*/
+
+.containerSkillColumn {
+  height: auto;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  background-color: white;
+}
+.containerSkillColumn__Tiltle {
+  font-family: Montserrat;
+  font-style: normal;
+  width: 85%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #4f4f4f;
+}
+.containerSkillColumn__ListSkill {
+  width: 85%;
+  display: grid;
+  margin-bottom: 15px;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  gap: 15px 30px;
+}
+.containerSkillColumn__ListSkill__Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3vh;
+}
+.containerSkillColumn__ListSkill__Item__bar {
+  height: 50%;
+  width: 70%;
+  border-radius: 10px;
+  background: #c4c4c4;
+}
+.quali2 {
+  height: 100%;
+  width: 40%;
+  border-radius: 10px;
+  background: #2f80ed;
+}
+.quali3 {
+  height: 100%;
+  width: 60%;
+  border-radius: 10px;
+  background: #2f80ed;
+}
+.quali4 {
+  height: 100%;
+  width: 80%;
+  border-radius: 10px;
+  background: #2f80ed;
+}
+.containerSkillColumn__ListSkill__Item p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #4f4f4f;
+}

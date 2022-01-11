@@ -1,0 +1,127 @@
+.containerBlogFlex {
+  height: 30vh;
+  width: 60vw;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  border-radius: 12px;
+  align-items: center;
+}
+.containerBlogFlexLeft {
+  height: 90%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.containerBlogFlexTop {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #e0e0e0;
+}
+.containerBlogFlexTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  width: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  color: #333333;
+}
+.containerBlogFlexText {
+  font-family: Montserrat;
+  font-style: normal;
+  width: 80%;
+  font-weight: 500;
+  font-size: 14px;
+  color: #828282;
+}
+.containerBlogFlexText p:first-of-type {
+  margin-bottom: 5px;
+}
+.containerBlogFlexBottom {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #2f80ed;
+}
+.containerBlogFlexImg {
+  height: 90%;
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.containerBlogFlexImg img {
+  object-fit: contain;
+  height: 90%;
+  border-radius: 12px;
+}
+
+.containerBlogColumn {
+  height: 70vh;
+  width: 20vw;
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  border-radius: 12px;
+  align-items: center;
+}
+.containerBlogColumnLeft {
+  height: 90%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.containerBlogColumnTop {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #e0e0e0;
+}
+.containerBlogColumnTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  width: 40%;
+  height: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  color: #333333;
+}
+.containerBlogColumnText {
+  font-family: Montserrat;
+  font-style: normal;
+  width: 80%;
+  font-weight: 500;
+  font-size: 14px;
+  color: #828282;
+}
+.containerBlogColumnText p:first-of-type {
+  margin-bottom: 5px;
+}
+.containerBlogColumnBottom {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #2f80ed;
+}
+.containerBlogColumnImg {
+  height: 18%;
+  display: flex;
+  transform: translate(50px, -120px);
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+}
+.containerBlogColumnImg img {
+  object-fit: contain;
+  height: 90%;
+  border-radius: 12px;
+}
