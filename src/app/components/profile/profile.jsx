@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "./profile.css";
 import mailImg from "../../../assets/email.png";
 import phoneImg from "../../../assets/phone-call.png";
